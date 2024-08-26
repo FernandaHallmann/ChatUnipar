@@ -28,6 +28,19 @@
     background-color: black;
 }
 
+#messages::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+#messages::-webkit-scrollbar-thumb {
+    background-color: white;      
+    box-shadow: 0.5px 0.5px red, 
+        -0.5px -0.5px rgb(0, 183, 255), 
+        inset 0.5px 0.5px red, 
+        inset -0.5px -0.5px rgb(0, 183, 255);
+  }
+
 body {
     font-family: monospace;
     font-weight: 400;
