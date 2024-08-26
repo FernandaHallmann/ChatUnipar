@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Unipar</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="welcome-form" id="welcome-form">
-        <h2>Seja bem-vindo ao Chat Unipar!</h2>
-        <input type="text" id="username" placeholder="Escolha seu nome de usuário">
-        <button onclick="enterChatRoom()">Acessar a Sala de Bate-Papo</button>
+        <h1>Seja bem-vindo ao Chat Unipar!</h1>
+        <div class="home">
+            <input type="text" id="username" placeholder="Escolha seu nome de usuário">
+            <button onclick="enterChatRoom()">Acessar a Sala de Bate-Papo</button>
+        </div>
     </div>
      
     <div class="chat-room" id="chat-room">
-        <h2>Sala de Bate-Papo</h2>
+        <h1>Sala de Bate-Papo</h1>
         <div id="messages"></div>
         <div class="enviar">
             <input type="text" id="messageInput" placeholder="Digite sua mensagem">
